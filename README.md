@@ -33,6 +33,7 @@ Database:
  MongoDB for storing user credentials and notes data.
 
 Technologies Used
+ 
  Frontend: HTML5, CSS3, JavaScript
 
  Backend: Node.js, Express.js
@@ -49,23 +50,29 @@ How to Run the Project
    bash
    git clone https://github.com/your-username/notenest.git
    cd notenest
+
 2. Install dependencies:
 
    bash
+
    npm install
-3. Start the MongoDB server locally or connect to MongoDB Atlas.
 
-4. Configure environment variables:
+4. Start the MongoDB server locally or connect to MongoDB Atlas.
 
-5. Create a .env file in the root directory.
+5. Configure environment variables:
 
-6. Add the following variables:
+6. Create a .env file in the root directory.
 
-    text
-    MONGO_URI=<your-mongodb-uri>
-    SECRET_KEY=<your-secret-key>
-7. Start the server:
+7. Add the following variables:
+
+   MONGO_URI=<your-mongodb-uri>
+
+   SECRET_KEY=<your-secret-key>
+
+8. Start the server:
 
    bash
+
    node server.js
-8. Open your browser and navigate to http://localhost:3000.
+
+10. Open your browser and navigate to http://localhost:3000.
